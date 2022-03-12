@@ -2,3 +2,22 @@ p {
     color: red;
 }
 
+h1 {
+    background-image: url(fundos/pexels-hoang-le-978535.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; 
+}
+
+.container {
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+   
+}
+
+.inside {
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+} 
