@@ -1,25 +1,2 @@
-p {
-    color: red;
-}
 
-h1 {
-    background-image: url(fundos/pexels-hoang-le-978535.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center; 
-}
 
-#base {
-    height: 10px;
-    background-color: red;
-}
-
-#container {
-    background-color: blue;
-    color: white;
-    margin-top: 10px;
-}
-
-#conteudo {
-
-}
