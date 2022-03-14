@@ -1,2 +1,40 @@
+.links{
+    text-decoration: none;
+    color:rgb(15, 15, 14);
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
 
+.links:active{
+    background-color: rgb(226, 24, 24);
+    color: white;
+}
 
+ul {
+    list-style-type: none;
+    list-style-type: '\2714\ ';
+    list-style-position: inside;
+    background-color: brown;
+    margin: 0;
+    padding: 10px;
+ 
+}
+
+ol {
+    list-style-type: none;
+    list-style-type: upper-alpha ;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    margin: 0;
+    padding: 10px;
+}
+
+li {
+    border: 1px solid;
+    margin: 10px;
+    padding: 5px;
+    background-color: chartreuse;
+    border-radius: 5px;
+}

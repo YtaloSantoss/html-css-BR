@@ -1,0 +1,56 @@
+@font-face {
+    font-family:texto;
+    src: url(fontes/MisterChild-OVMJd.ttf);
+}
+
+@font-face {
+    font-family:titulo;
+    src: url(fontes/KentCorner.otf);
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: titulo;
+    font-weight: bolder;
+}
+
+div {
+    width: 450px;
+    height: 210px;
+    box-sizing: border-box;
+    padding:1px 20px;
+    background-image: url(img/backgorund.png);
+    background-size:cover;
+    margin: auto;
+    margin-top: 10%;
+    
+   
+}
+
+ul {
+    list-style-type: none;
+    line-height: 1.7;
+    
+}
+ 
+a {
+    text-decoration: none;
+    color: black;
+    font-family: texto;
+    font-weight: 300;
+}
+
+#lis1{
+    list-style-image: url(img/Insta.png);
+}
+
+#lis2 {
+    list-style-image:  url(img/Twitter.png);
+}
+
+#lis3{
+    list-style-image: url(img/Youtube.png);
+}
