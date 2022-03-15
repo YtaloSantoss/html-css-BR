@@ -7,48 +7,59 @@
     <title>Display</title>
     
     <style>
-        body {
-            font-size:1.2rem;
+        .card{
+            position: relative;
+            float: left;
+            width: 400px;   
+            height: 200px;
+            border: 2px solid green;
+            text-align: center;
         }
 
-        #container {
-            color : rgb(0, 0, 0);
-            background-color: rgba(33, 162, 236, 0.575);
-            width: 300px;
-            height: 100px;
-
-            overflow: auto;
+        .card2 {
+            clear: left;
+            float: left;
+            border: 2px solid green;
+            padding-left: 156px;
+            padding-right: 156px;
+            padding-top: 94px;
+            padding-bottom: 94px;
+    
+        }
+       
+        .c1 {
+            background-color: red;
+            line-height: 200px;
         }
 
-        #quadrado {
-            width: 50px;
-            height: 50px;
-            background-color: blue;
-            margin: 10px auto;
-            border-radius: 50%;
-            display: inline;
-            margin-left: 10px;
-        }
-        #circulo {
+        .c2 {
+            color: black;
             position: absolute;
-            width: 50px;
-            height: 50px;
-            background-color: blue;
-            border-radius: 50%;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+
         }
     </style>
 
 </head>
 <body>
-   <div id="container">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, similique reiciendis dolorem, provident minus qui rem dolore, recusandae est perferendis expedita quo. Culpa, architecto necessitatibus earum voluptatum numquam sunt eaque.
-   </div>  
- 
-   <div id="quadrado">
+    <div class="card">
+        <div class="c1">
+            Ytalo Mateus
+        </div>
+    </div>
 
-   </div>
-   <div id="circulo">
+    <div class="card">
+        <div class="c2">
+            Ytalo Mateus
+        </div>
+    </div>
 
-</div>
+    <div class="card2">
+        <div>
+            Ytalo Mateus
+        </div>
+    </div>
 </body>
 </html>
