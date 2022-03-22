@@ -11,10 +11,48 @@
 </head>
 <body>
     <form method="get" action="/cadrastro">
-         
+        <div>
         <input type="text" name="email">
-        <input type="text" name="nome">
+        <input type="password" name="nome">
         <input type="submit">  
+        </div>
+
+        <input type="checkbox" name="sim " id="sim" value="op1"> sim
+        <input type="checkbox" name="nao" id="nao" value="op2"> não  <br>
+
+        <input type="radio" name="genero"  value="m">
+        <input type="radio" name="genero"  value="f">
+        <br>
+        <br>
+        <br>
+
+        <div>
+
+            <select name="estado" id="">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="So">São Paulo</option>
+            </select>
+            <input type="submit" value="enviar">
+        </div>
+        <br>
+        <br>
+        <br>
+
+
+        <textarea name="texto" id="" cols="30" rows="3"></textarea>
+        <input type="submit" value="enviar"> 
+        <br>
+        <br>
+        <br>
+        
+        <input type="color" name="cor" id="">
+        <br>
+        <br>
+        <input type="submit">
+        <br>
+        <br>
+
+        <input type="datetime-local" name="data" max="2022-12-15" id="">
     </form>
 </body>
 </html>
