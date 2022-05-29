@@ -40,19 +40,21 @@
 <body>
     <div class="container">
 
-        <video class="video" src="videos/production ID_4182910.mp4">
+        <video id="video1" class="video" src="videos/production ID_4182910.mp4">
 
         </video>
 
         <div class="controle">
-            <img class="btn" src="controles/voltar.PNG">
-            <img class="btn" src="controles/avança.PNG">
-            <img class="btn" src="controles/mais.PNG">
-            <img class="btn" src="controles/menos.PNG">
-            <img class="btn" src="controles/play.PNG">
-            <img class="btn" src="controles/parar.PNG">
+            <img class="btn" onclick="retroceder()" src="controles/voltar.PNG">
+            <img class="btn" onclick="avanca()" src="controles/avança.PNG">
+            <img class="btn" onclick="diminuir()" src="controles/menos.PNG">
+            <img class="btn" onclick="aumentar()" src="controles/mais.PNG">
+            <img class="btn" onclick="play()" src="controles/play.PNG">
+            <img class="btn" onclick="parar()" src="controles/parar.PNG">
         </div>
 
     </div>
+
+    <script src="scriptControle.js"></script>
 </body>
 </html>
