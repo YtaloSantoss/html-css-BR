@@ -1,0 +1,16 @@
+p::first-letter{
+    color: rgba(0, 140, 255, 0.795);
+    font-size: 5rem;
+}
+p::first-line{
+    color: red;
+}
+li {
+    list-style:none
+}
+
+/*li::before{
+    content: "A";
+    color:blue;
+    font-size:20px;
+}*/
