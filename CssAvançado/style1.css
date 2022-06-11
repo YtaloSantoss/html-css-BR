@@ -6,11 +6,24 @@ p::first-line{
     color: red;
 }
 li {
-    list-style:none
+    /*margin-left: 250px;*/
+    list-style:none;
+
+    /*list-style-image: url(./imagens/letter.jpg);*/
 }
 
-/*li::before{
-    content: "A";
-    color:blue;
-    font-size:20px;
-}*/
+li::before{
+    content: "";
+    display:inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(./imagens/letter.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p::selection{
+    background-color: blueviolet;
+    color: brown;
+}
