@@ -1,0 +1,22 @@
+input:focus{
+    color: rebeccapurple;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:30px;
+    
+}
+
+li:nth-of-type(even){
+    color:blueviolet;
+    background-color:rgba(0, 0, 0, 0.781);
+}
+li:nth-of-type(odd){
+    background-color: rgba(245, 245, 220, 0.918);
+}
