@@ -18,7 +18,7 @@ setInterval(function () {
     moverJogadorPara(xInicial++, yInicial++);
 
 
-}, 40);
+}, 50);
 
 
 
