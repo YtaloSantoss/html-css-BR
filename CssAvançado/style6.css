@@ -1,0 +1,26 @@
+:root{
+    --var-color: rgb(230, 22, 22);
+
+    --square-size: 250px;
+}
+
+.p2{
+    color: var(--var-color);
+    
+}
+
+.p3{
+    color: var(--var-color);
+}
+
+.sqr1{
+    width: var(--square-size);
+    height: var(--square-size);
+    background-color: black;
+}
+
+.sqr2{
+    width: var(--square-size);
+    height: var(--square-size);
+    background-color: red;
+}
