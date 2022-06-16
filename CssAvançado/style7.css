@@ -1,15 +1,15 @@
 .container{
     display:flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-
+   
+    
     background-color:lightblue;
-    height: 400px;
+    height: 500px;
     color: white;
 }
 
 .r1{
     background-color: brown;
+     
 }
 
 .r2{
@@ -21,6 +21,6 @@
 }
 
 .rect{
- width: 200px;
+ width: 250px;
 height: 150px;
 }
