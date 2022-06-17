@@ -13,7 +13,8 @@
     row-gap: 10px;
     column-gap: 10px;
 
-    justify-items: flex-start;
+    justify-items: center;
+    align-items: center;
 }
 
 .r1{
