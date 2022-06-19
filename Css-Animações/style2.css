@@ -1,0 +1,25 @@
+@keyframes changeColor {
+
+    0%{background-color: darkred; width: 400px;}
+    25%{background-color: darkblue; height: 300px;}
+    50%{background-color: darkviolet; width: 400px;}
+    100%{background-color: darkorange; width: 200px;}
+}
+
+.box{
+    width:200px;
+    height:200px;
+    border-style: solid;
+    box-shadow:1px 1px 50px rgb(5, 230, 247);
+
+    animation-name: changeColor;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 3;
+
+} 
+
+body{
+    background-color: black;
+
+}
