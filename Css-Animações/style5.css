@@ -1,0 +1,16 @@
+.btn{
+    display: inline-block;
+    padding: 15px;
+    background-color: blueviolet;
+    color: #f0f8ff;
+    font-size: 30px;
+
+    transition-property: background-color, padding;
+    transition-duration: 0.5s;
+}
+
+.btn:hover{
+    background-color:rgb(48, 6, 87);
+    padding: 20px;
+  
+}
