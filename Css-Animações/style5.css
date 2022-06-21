@@ -7,6 +7,10 @@
 
     transition-property: background-color, padding;
     transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    transition-timing-function:ease-out;
+
+     /*Tudo que colocar em Transition vai influenciar no que estiver dentro do transition-property:*/
 }
 
 .btn:hover{
